@@ -86,8 +86,7 @@ module.exports = function GitHubCalendar (container, username, options) {
                                       : "Rock - Hard Place"
                   , firstCol = $("<div>", {
                         "class": "contrib-column contrib-column-first table-column"
-                      , html: `<span class="text-muted">Contributions in the last year</span>
-                               <span class="contrib-number">${parsed.last_year} total</span>
+                      , html: `<span class="contrib-number">${parsed.last_year} total</span>
                                <span class="text-muted">${formatoid(addSubtractDate.subtract(new Date(), 1, "year"), DATE_FORMAT1)} – ${formatoid(new Date(), DATE_FORMAT1)}</span>`
                     })
                   , secondCol = $("<div>", {
