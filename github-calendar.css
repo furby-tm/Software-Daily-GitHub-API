@@ -119,6 +119,10 @@ h2.f4.text-normal.mb-3 {
     display: none;
 }
 
+h2 .f4 .text-normal .mb-2 {
+    display: none;   
+}
+
 .float-left.text-gray {
     float: left;
 }
