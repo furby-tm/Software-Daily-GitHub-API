@@ -121,6 +121,40 @@ h2.f4.text-normal.mb-3 {
     float: left;
 }
 
+.bag > h1 {
+    text-align: center;
+    font-weight: 100;
+    font-size: 25px;
+}
+
+.monospace {
+    font-family: 'Cutive Mono', monospace !important;
+}
+
+
+body {
+    font-family: 'Cutive Mono', monospace;
+}
+
+@media(min-width:992px){.bag.fixed{width: 784px;}}
+
+pre {
+    background: white;
+    border: 1px solid #DDDDDD;
+    padding: 10px;
+    overflow: auto;
+    border-radius: 3px;
+    color: #373727;
+}
+
+.calendar {
+    margin-bottom: 10px;
+}
+
+p {
+    color: #444444;
+}
+
 .bag{margin-left:auto;margin-right:auto;padding:15px;box-sizing:border-box}
 .bag.fixed{max-width:100%}@media(min-width:768px){.bag.fixed{width:750px}}@media(min-width:992px){.bag.fixed{width:970px}}@media(min-width:1200px){.bag.fixed{width:1170px}}
 
